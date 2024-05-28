@@ -1,0 +1,3 @@
+[submodule "SymmetryAdaptation/deps/ndarrays"]
+	path = SymmetryAdaptation/deps/ndarrays
+	url = https://github.com/iskakoff/ndarrays.git
