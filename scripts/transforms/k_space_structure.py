@@ -68,7 +68,7 @@ class KSpaceStructure(object):
         f = h5py.File(filename, 'r')
         kpts = f['/grid/k_mesh'][()]
 
-        k_struct = KSpaceStructure(space_group=group, kpts=kpts, compute=False)
+        k_struct = KSpaceStructure(space_group=group, kpts=kpts)
         k_struct.nk = kpts.shape[0]
         k_struct.kmesh = f['/grid/k_mesh_scaled'][()]
 
